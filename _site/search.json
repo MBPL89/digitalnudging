@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Digital nudging typology",
     "section": "",
-    "text": "Work in progress"
+    "text": "/Work in progress/\nThis repository is a companion to a paper titled: “Towards a Theory of Digital Nudging: Properties and Typology of Digital Nudges” available at: …\nInformation Systems (IS) scholars use the term digital nudging to broadly refer to nudges that utilize digital technology. However, referring uncritically to any form of nudging facilitated by digital technology as digital nudging masks its uniqueness, hampering knowledge accumulation. Our paper advances the discussion by critically reviewing nudging literature in IS to synthesize a typology that highlights the distinct ontology of digital nudges. We clarify the boundary between digital and IT-enabled nudging, reserving digital for nudges that leverage the defining traits of digital objects and digital service stacks. Anchored in the emerging research agenda on digital objects and the increasing focus on ontological reversal in IS, we identify three ideal types of digital nudges: responsive, profile-driven, and environment-aware nudging.\nFor the full paper and detailed typology, go to: …"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#responsive-nudging",
+    "href": "index.html#responsive-nudging",
+    "title": "Digital nudging typology",
+    "section": "Responsive Nudging",
+    "text": "Responsive Nudging\nDefinition: Designed by a choice architect but enhanced with interactivity, responsive nudges allow the timing of the nudge to adapt dynamically to real-time changes."
+  },
+  {
+    "objectID": "index.html#profile-driven-nudging",
+    "href": "index.html#profile-driven-nudging",
+    "title": "Digital nudging typology",
+    "section": "Profile-driven Nudging",
+    "text": "Profile-driven Nudging\nDefinition: Created at runtime, based on aligned data, profile-driven nudges adapt dynamically to the user’s digital context."
+  },
+  {
+    "objectID": "index.html#environment-aware-nudging",
+    "href": "index.html#environment-aware-nudging",
+    "title": "Digital nudging typology",
+    "section": "Environment-aware Nudging",
+    "text": "Environment-aware Nudging\nDefinition: Created at runtime, based on aligned data, environment-aware nudges adapt dynamically to the user’s current digital and physical context."
   }
 ]

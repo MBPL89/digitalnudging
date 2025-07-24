@@ -2,5 +2,66 @@
 title: "Digital nudging typology"
 ---
 
-Work in progress
+/Work in progress/
 
+**This repository is a companion to a paper titled: "Towards a Theory of Digital Nudging: 
+Properties and Typology of Digital Nudges" available at: ...**
+
+Information Systems (IS) scholars use the term digital nudging to broadly refer to nudges that utilize digital technology. However, referring uncritically to any form of nudging facilitated by digital technology as digital nudging masks its uniqueness, hampering knowledge accumulation. 
+Our paper advances the discussion by critically reviewing nudging literature in IS to synthesize a typology that highlights the distinct ontology of digital nudges. We clarify the boundary between digital and IT-enabled nudging, reserving *digital* for nudges that leverage the defining traits of digital objects and digital service stacks. Anchored in the emerging research agenda on digital objects and the increasing focus on ontological reversal in IS, we identify three ideal types of digital nudges: responsive, profile-driven, and environment-aware nudging.
+
+For the full paper and detailed typology, go to: ...
+
+```{r, echo=FALSE,warning=FALSE}
+library(DT)
+library(readxl)
+T1 <- read_excel("T1.xlsx")
+T1d <- data.frame(T1)
+T2 <- read_excel("T2.xlsx")
+T2d <- data.frame(T2)
+T3 <- read_excel("T3.xlsx")
+T3d <- data.frame(T3)
+T4 <- read_excel("T4.xlsx")
+T4d <- data.frame(T4)
+```
+# IT-enabled Nudging
+
+*Definition:* 
+
+```{r, echo=FALSE}
+datatable(T1d,
+  filter = "top")
+```
+
+# Digital Nudging
+
+*Definition:* **nudges that draw on the unique nature and properties of digital objects: interactivity, computability, and distributedness.**
+
+We identify three types of digital nudges within this sample: responsive, profile-driven, and environment-aware.
+
+## Responsive Nudging
+
+*Definition:* **Designed by a choice architect but enhanced with interactivity, responsive nudges allow the timing of the nudge to adapt dynamically to real-time changes. In responsive digital nudges, the interactivity and computability of digital objects enable the nudge to adapt dynamically to a single action of the individual user. Specifically, responsive nudges differ from IT-enabled nudges by implicating the service layer to make use of dynamic interactivity to adapt the nudge, usually in real-time, to the individual’s current behavior.**
+
+```{r, echo=FALSE}
+datatable(T2d,
+  filter = "top")
+```
+
+## Profile-driven Nudging
+
+*Definition:* **Created at runtime, based on aligned data, profile-driven nudges adapt dynamically to the user’s digital context. In profile-driven digital nudges, the computability and interactivity of digital objects enable the nudge to leverage digital data about an individual as the input to then dynamically create a personalized, well-targeted nudge specifically tailored to each user. However, unlike responsive nudges, the profile-driven nudge does not rely on deterministic if-then-else conditions and a single user action. Rather, the design of the digital objects is such that the nudge is generated and adjusted to the output of an adaptive algorithm applied to data, relying, among other things, on users’ profiles and behavior data. **
+
+```{r, echo=FALSE}
+datatable(T3d,
+  filter = "top")
+```
+
+## Environment-aware Nudging
+
+*Definition:* **Created at runtime, based on aligned data, environment-aware nudges adapt dynamically to the user’s current digital and physical context. With environment-aware digital nudges, the computability and interactivity of digital objects integrates with multimodal data fusion to enable the nudge to use data about individuals’ behavior in physical space. The data collected by environment-aware nudges come from the interplay of the digital and physical environment, affecting individuals’ decisions in such environments.**
+
+```{r, echo=FALSE}
+datatable(T4d,
+  filter = "top")
+```
