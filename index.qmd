@@ -24,20 +24,26 @@ T3d <- data.frame(T3)
 T4 <- read_excel("T4.xlsx")
 T4d <- data.frame(T4)
 ```
+
 # IT-enabled Nudging
 
 *Definition:* 
 
+::: {.callout-note title="IT-enabled Nudging" collapse="true"}
 ```{r, echo=FALSE}
 datatable(T1d,
   filter = "top")
 ```
+
+:::
 
 # Digital Nudging
 
 *Definition:* **nudges that draw on the unique nature and properties of digital objects: interactivity, computability, and distributedness.**
 
 We identify three types of digital nudges within this sample: responsive, profile-driven, and environment-aware.
+
+::: {.callout-note title="Responsive Nudging" collapse="true"}
 
 ## Responsive Nudging
 
@@ -47,7 +53,9 @@ We identify three types of digital nudges within this sample: responsive, profil
 datatable(T2d,
   filter = "top")
 ```
+:::
 
+::: {.callout-note title="Profile-driven Nudging" collapse="true"}
 ## Profile-driven Nudging
 
 *Definition:* **Created at runtime, based on aligned data, profile-driven nudges adapt dynamically to the user’s digital context. In profile-driven digital nudges, the computability and interactivity of digital objects enable the nudge to leverage digital data about an individual as the input to then dynamically create a personalized, well-targeted nudge specifically tailored to each user. However, unlike responsive nudges, the profile-driven nudge does not rely on deterministic if-then-else conditions and a single user action. Rather, the design of the digital objects is such that the nudge is generated and adjusted to the output of an adaptive algorithm applied to data, relying, among other things, on users’ profiles and behavior data. **
@@ -56,7 +64,9 @@ datatable(T2d,
 datatable(T3d,
   filter = "top")
 ```
+:::
 
+::: {.callout-note title="Environment-aware Nudging" collapse="true"}
 ## Environment-aware Nudging
 
 *Definition:* **Created at runtime, based on aligned data, environment-aware nudges adapt dynamically to the user’s current digital and physical context. With environment-aware digital nudges, the computability and interactivity of digital objects integrates with multimodal data fusion to enable the nudge to use data about individuals’ behavior in physical space. The data collected by environment-aware nudges come from the interplay of the digital and physical environment, affecting individuals’ decisions in such environments.**
@@ -65,3 +75,4 @@ datatable(T3d,
 datatable(T4d,
   filter = "top")
 ```
+:::

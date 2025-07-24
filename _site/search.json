@@ -18,20 +18,20 @@
     "href": "index.html#responsive-nudging",
     "title": "Digital nudging typology",
     "section": "Responsive Nudging",
-    "text": "Responsive Nudging\nDefinition: Designed by a choice architect but enhanced with interactivity, responsive nudges allow the timing of the nudge to adapt dynamically to real-time changes."
+    "text": "Responsive Nudging\nDefinition: Designed by a choice architect but enhanced with interactivity, responsive nudges allow the timing of the nudge to adapt dynamically to real-time changes. In responsive digital nudges, the interactivity and computability of digital objects enable the nudge to adapt dynamically to a single action of the individual user. Specifically, responsive nudges differ from IT-enabled nudges by implicating the service layer to make use of dynamic interactivity to adapt the nudge, usually in real-time, to the individual’s current behavior."
   },
   {
     "objectID": "index.html#profile-driven-nudging",
     "href": "index.html#profile-driven-nudging",
     "title": "Digital nudging typology",
     "section": "Profile-driven Nudging",
-    "text": "Profile-driven Nudging\nDefinition: Created at runtime, based on aligned data, profile-driven nudges adapt dynamically to the user’s digital context."
+    "text": "Profile-driven Nudging\nDefinition: Created at runtime, based on aligned data, profile-driven nudges adapt dynamically to the user’s digital context. In profile-driven digital nudges, the computability and interactivity of digital objects enable the nudge to leverage digital data about an individual as the input to then dynamically create a personalized, well-targeted nudge specifically tailored to each user. However, unlike responsive nudges, the profile-driven nudge does not rely on deterministic if-then-else conditions and a single user action. Rather, the design of the digital objects is such that the nudge is generated and adjusted to the output of an adaptive algorithm applied to data, relying, among other things, on users’ profiles and behavior data."
   },
   {
     "objectID": "index.html#environment-aware-nudging",
     "href": "index.html#environment-aware-nudging",
     "title": "Digital nudging typology",
     "section": "Environment-aware Nudging",
-    "text": "Environment-aware Nudging\nDefinition: Created at runtime, based on aligned data, environment-aware nudges adapt dynamically to the user’s current digital and physical context."
+    "text": "Environment-aware Nudging\nDefinition: Created at runtime, based on aligned data, environment-aware nudges adapt dynamically to the user’s current digital and physical context. With environment-aware digital nudges, the computability and interactivity of digital objects integrates with multimodal data fusion to enable the nudge to use data about individuals’ behavior in physical space. The data collected by environment-aware nudges come from the interplay of the digital and physical environment, affecting individuals’ decisions in such environments."
   }
 ]
